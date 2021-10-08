@@ -1,0 +1,6 @@
+array = list(map (int, input("Введите массив:").split()))
+delta = int(input("Введите delta:"))
+c = abs(delta)
+a = min(array)
+b = len([x for x in array if x == a + c])
+print(b)
