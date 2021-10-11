@@ -1,4 +1,4 @@
-array = list(map (int, input("Введите массив:")))
+array = list(map (int, input("Введите массив:").split()))
 delta = input("Введите delta:")
 try:
    delta = int(delta)
